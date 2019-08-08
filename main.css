@@ -334,12 +334,6 @@ nav a:hover {
     }
 }
 
-@media (max-width: 600px) {
-    .news-wrap {
-        min-width: none;
-    }
-}
-
 @media (max-width: 460px) {
     form {
         width: 310px;

@@ -90,7 +90,7 @@ jQuery(function($) {
 
 $.get("http://codeit.ai/codeitCandidates/serverFrontendTest/company/getList", function(data) {
 
-    console.log(data);
+    // console.log(data);
 
     // отображаю список компаний
 
@@ -158,7 +158,7 @@ $.get("http://codeit.ai/codeitCandidates/serverFrontendTest/company/getList", fu
 // получаю список новостей
 
 $.get("http://codeit.ai/codeitCandidates/serverFrontendTest/news/getList", function(data) {
-    console.log(data)
+    // console.log(data)
 
     for (let i = 0; i < data.list.length; i++) {
         let nowDate = new Date(data.list[i].date * 1000);
